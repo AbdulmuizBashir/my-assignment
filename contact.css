@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+    
+
+}
+body{
+    background-color: rgb(0, 114, 175);
+}
+/* navigation content */
+nav ul{
+    background-color: white;
+    display: flex;
+    
+}
+
+nav ul li{
+    list-style: none;
+    padding-left: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+} 
+
+.container{
+    width: 100%;
+    background-color: #fff;
+    padding: 30px;
+}
+
+
+
+.contact-container{
+    display: flex;
+    margin-top: 50px;
+}
+
+.contact-left{
+
+    flex-basis: 60%;
+    padding: 40px 60px;
+    background-color: white;
+}
+
+.contact-right{
+    flex-basis: 40%;
+    padding: 40px 60px;
+    background-color: wheat;
+
+}
+
+.contact-input{
+    background-color: transparent;
+    margin-top: 20px;
+    height: 50px;
+    width: 340px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    color: black;
+
+}
+.contact-input::placeholder{
+    color: black;
+}
+.contact-left textarea{
+    width: 500px;
+    height: 100px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border: 1px solid black;
+    margin-top: 20px;
+}
+.contact-left-title{
+    color: black;
+}
+.contact-left-title hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 80px;
+    height: 4px;
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+}
+
+.contact-right-title{
+    color: black;
+}
+.contact-right-title hr{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 80px;
+    height: 4px;
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+}
+
+tr td:first-child{
+    padding-right: 20px;
+}
+
+tr td{
+    padding-top: 20px;
+}
+
+.contact-left button{
+    outline: none;
+    border: none;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
